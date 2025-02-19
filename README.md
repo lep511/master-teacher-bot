@@ -17,7 +17,7 @@ Master Teacher BOT is a Telegram bot designed to help users prepare for exams or
 - **AWS Lambda**: For hosting and running the bot's backend logic.
 - **AWS S3**: To store user answers and session data.
 - **Telegram Bot API**: For interfacing with users on Telegram.
-- **Rust**: Programming language used for implementing the bot's logic.
+- **Gemini 2.0**: For LLM-generated answers.
 
 ## Configuration
 * **AWS Lambda Deployment**: Configure your AWS Lambda function to use the compiled binary. You can use AWS SAM or the AWS CLI to deploy the function.
