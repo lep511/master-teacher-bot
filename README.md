@@ -31,6 +31,18 @@ Master Teacher BOT is a Telegram bot designed to help users prepare for exams or
   * Continue with another set of questions, or
   * Analyze your answers from the previous session.
 
+To run the program it is necessary to define the following variables in the environment:
+
+* **BUCKET_NAME**: This is the name of the AWS S3 bucket where the users' answers will be stored.
+* **GEMINI_API_KEY**: This is the access key to use the Gemini 2.0 service, which is responsible for the intelligent generation of questions and the analysis of answers.
+* **TELEGRAM_BOT_TOKEN**: This is the token that authenticates and allows the bot to connect to the Telegram API.
+
+```bash
+export BUCKET_NAME="your_bucket_name"
+export GEMINI_API_KEY="your_gemini_api_key"
+export TELEGRAM_BOT_TOKEN="your_telegram_bot_token"
+```
+
 ## Contributing
 Contributions are welcome! Please follow these steps:
 
