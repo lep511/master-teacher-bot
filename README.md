@@ -36,6 +36,9 @@ To run the program it is necessary to define the following variables in **AWS La
 * **GEMINI_API_KEY**: This is the access key to use the Gemini 2.0 service, which is responsible for the intelligent generation of questions and the analysis of answers.
 * **TELEGRAM_BOT_TOKEN**: This is the token that authenticates and allows the bot to connect to the Telegram API.
 
+## Demo
+Scan the QR code to run a demo of how to use the bot in Telegram.
+
 ![qr-image](qr.png)
 
 ## License
