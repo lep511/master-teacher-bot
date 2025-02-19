@@ -10,7 +10,6 @@ Master Teacher BOT is a Telegram bot designed to help users prepare for exams or
 - **Session Analysis**: Option to review your answers after each session.
 - **Serverless Architecture**: Built using AWS Lambda for scalability.
 - **Secure Answer Storage**: Uses AWS S3 to securely store user responses.
-- **Written in Rust**: The entire codebase is developed in Rust for performance and safety.
 
 ## Technologies
 
